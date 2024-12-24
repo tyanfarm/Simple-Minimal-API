@@ -1,0 +1,11 @@
+﻿name: Snapboto
+namespace: SBT.Shared.DAO
+schema: snapboto
+tables:
+    cp_ticker:
+        features:
+            id: serial
+            name: string
+            market_id: int
+        constraints:
+            pk: pk(id)
